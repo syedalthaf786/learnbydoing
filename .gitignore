@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+.env.*
+
+# logs
+*.log
+
+# OS files
+.DS_Store
+
+# build output (if any)
+dist/
+build/
+
+# testing
+coverage/
