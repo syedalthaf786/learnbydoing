@@ -4,10 +4,9 @@
   "description": "Learn By Doing Platform Backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "cd ../client && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "node server/server.js",
+    "build":"npm install && npm install --prefix  frontend && npm run build --prefix frontend",
+    "start":"node server/server.js"
   },
   "keywords": [],
   "author": "",
