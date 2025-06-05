@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 import Loading1 from 'components/Loading/Loading';
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api/projects";
+const API_URL = process.env.REACT_APP_API_URL || "https://learnbydoing-1.onrender.com/api/projects";
 
 function ProjectList() {
   const [projects, setProjects] = useState([]);

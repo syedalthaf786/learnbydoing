@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/projects';
+const API_URL = 'https://learnbydoing-1.onrender.com/api/projects';
 
 export const fetchProjects = async () => {
   try {

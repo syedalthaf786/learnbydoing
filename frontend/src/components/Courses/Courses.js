@@ -21,7 +21,7 @@ import Loading from '../Loading/Loading';
 
 // Updated API function that calls the backend endpoint
 const fetchCourses = async () => {
-  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+  const API_URL = process.env.REACT_APP_API_URL || 'https://learnbydoing-1.onrender.com/api';
   const response = await fetch(`${API_URL}/courses`);
   if (!response.ok) {
     const errorText = await response.text();

@@ -15,7 +15,7 @@ import {
 import axios from "axios";
 import ProjectRoles from "./ProjectRoles";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api/projects";
+const API_URL = process.env.REACT_APP_API_URL || "https://learnbydoing-1.onrender.com/api/projects";
 
 function ProjectDetail() {
   const { projectId } = useParams();
