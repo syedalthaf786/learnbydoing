@@ -44,7 +44,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/DDGCreativeSolutions/learnbydoing.git
+git clone https://github.com/syedalthaf786/learnbydoing.git
 
 # Navigate to the project folder
 cd learnbydoing
