@@ -89,8 +89,7 @@ This project is licensed under the MIT License.
 ## 📬 Contact
 
 **DesignDeliverGrow**
-📧 [info@designdelivergrow.store](mailto:info@designdelivergrow.store)
- Visit us at: https://www.designdelivergrow.store/
+📧 [info@designdelivergrow.store](mailto:syedalthaf760@gmail.com)
 
 ---
 
